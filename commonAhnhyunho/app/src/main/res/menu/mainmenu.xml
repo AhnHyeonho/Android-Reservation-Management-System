@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/groupMenu"
+        android:title="그룹관리"
+        android:icon="@drawable/group"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/userMenu"
+        android:title="사용자관리"
+        android:icon="@drawable/user"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/settingMenu"
+        android:title="설정"
+        android:icon="@drawable/setting"
+        app:showAsAction="always">
+    </item>
+</menu>
